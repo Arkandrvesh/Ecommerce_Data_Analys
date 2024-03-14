@@ -16,6 +16,12 @@ product_category_translation = pd.read_csv('../data/product_category_name_transl
 products = pd.read_csv('../data/products_dataset.csv')
 sellers = pd.read_csv('../data/sellers_dataset.csv')
 
+# Load datasets from link drive
+# order_url='https://drive.google.com/drive/folders/1Bi4FOZmQBecizCP1Yk0AcvK8ENS4B4rL/view?usp=drive_link'
+# order_url='https://drive.google.com/uc?id=' + order_url.split('/')[-2]
+# customers = pd.read_csv(order_url)
+
+
 # Page title
 st.title('E-commerce Data Analysis Dashboard')
 
