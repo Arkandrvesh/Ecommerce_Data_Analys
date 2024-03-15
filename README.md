@@ -1,4 +1,4 @@
-# Proses dashboard streamlit
+# Proses Dashboard Streamlit
 
 ## Set up environment
 `cd C:\Users\Asus\Documents\Arkan-Document\Bootcamp\Bangkit_Academy_ML\submission`
