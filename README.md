@@ -7,7 +7,7 @@
 
 `pipreqs`
 
-akan di munculka di dalam file text dengan nama requirements.txt
+### akan di munculkan di dalam file text dengan nama requirements.txt
 
 `pip show streamlit pandas numpy matplotlib seaborn`
 streamlit==1.32.0
@@ -21,7 +21,7 @@ matplotlib==3.8.3
 
 `cd Dashboard`
 
-### eksekusi
+## Eksekusi
 
 `streamlit run arkan_ecomerr.py`
 
