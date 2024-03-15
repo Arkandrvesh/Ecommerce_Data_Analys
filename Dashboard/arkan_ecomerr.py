@@ -6,15 +6,15 @@ import matplotlib.pyplot as plt
 
 # Load datasets
 # Load datasets from local directory
-customers = pd.read_csv('/data/customers_dataset.csv', delimiter=",")
-geolocation = pd.read_csv('/data/geolocation_dataset.csv', delimiter=",")
-order_items = pd.read_csv('/data/order_items_dataset.csv', delimiter=",")
-order_payments = pd.read_csv('/data/order_payments_dataset.csv', delimiter=",")
-order_reviews = pd.read_csv('/data/order_reviews_dataset.csv', delimiter=",")
-orders = pd.read_csv('/data/orders_dataset.csv', delimiter=",")
-product_category_translation = pd.read_csv('/data/product_category_name_translation.csv', delimiter=",")
-products = pd.read_csv('/data/products_dataset.csv', delimiter=",")
-sellers = pd.read_csv('/data/sellers_dataset.csv', delimiter=",")
+customers = pd.read_csv('data/customers_dataset.csv', delimiter=",")
+geolocation = pd.read_csv('data/geolocation_dataset.csv', delimiter=",")
+order_items = pd.read_csv('data/order_items_dataset.csv', delimiter=",")
+order_payments = pd.read_csv('data/order_payments_dataset.csv', delimiter=",")
+order_reviews = pd.read_csv('data/order_reviews_dataset.csv', delimiter=",")
+orders = pd.read_csv('data/orders_dataset.csv', delimiter=",")
+product_category_translation = pd.read_csv('data/product_category_name_translation.csv', delimiter=",")
+products = pd.read_csv('data/products_dataset.csv', delimiter=",")
+sellers = pd.read_csv('data/sellers_dataset.csv', delimiter=",")
 
 # Load datasets from link drive
 # order_url='https://drive.google.com/drive/folders/1Bi4FOZmQBecizCP1Yk0AcvK8ENS4B4rL/view?usp=drive_link'
